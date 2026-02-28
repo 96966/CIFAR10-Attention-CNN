@@ -37,8 +37,8 @@
 | **+ Attention Mechanism** | ~90.2% | - |
 | **Final (All Strategies)** | **92.47%** | ~8 mins/epoch (GPU) |
 
-*(注意：请确保将代码生成的 `training_curves.png` 图片上传到同一目录下，否则图片无法显示)*
 ![Training Curves](./training_curves.png)
+*(请确保已将 `training_curves.png` 图片上传至仓库根目录)*
 
 ## 🛠️ Environment Setup
 确保你的环境满足以下要求：
@@ -51,3 +51,12 @@
 安装依赖：
 ```bash
 pip install torch torchvision matplotlib numpy
+
+.
+├── data/               # 数据集自动下载目录 (gitignore 忽略)
+├── training_curves.png # 训练过程可视化图表
+├── model.ipynb         # 完整的训练与评估代码 (Jupyter Notebook)
+├── requirements.txt    # 依赖列表
+└── README.md           # 项目说明文档
+
+
