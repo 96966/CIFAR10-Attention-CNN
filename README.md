@@ -1,10 +1,10 @@
-# CIFAR10-Attention-CNN
-A high-performance CNN architecture with Channel Attention for CIFAR-10 image classification. Achieves 92.47% accuracy using advanced techniques like Mix Precision Training, Label Smoothing, and Model Ensemble. Implemented in PyTorch.
-# CIFAR-10 Image Classification with Channel Attention CNN
-
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-ee4c2c.svg)](https://pytorch.org/)
 [![Accuracy](https://img.shields.io/badge/Accuracy-92.47%25-brightgreen.svg)]()
+
+# CIFAR-10 Image Classification with Channel Attention CNN
+
+> A high-performance CNN architecture with Channel Attention for CIFAR-10 image classification. Achieves **92.47% accuracy** using advanced techniques like Mix Precision Training, Label Smoothing, and Model Ensemble. Implemented in PyTorch.
 
 ## 📖 Project Overview
 本项目旨在构建一个高性能的卷积神经网络（CNN），用于解决 CIFAR-10 图像分类问题。
@@ -37,7 +37,7 @@ A high-performance CNN architecture with Channel Attention for CIFAR-10 image cl
 | **+ Attention Mechanism** | ~90.2% | - |
 | **Final (All Strategies)** | **92.47%** | ~8 mins/epoch (GPU) |
 
-*(此处建议上传你代码生成的 `training_curves.png` 图片，展示 Loss 下降和 Accuracy 上升的曲线，这非常有说服力)*
+*(注意：请确保将代码生成的 `training_curves.png` 图片上传到同一目录下，否则图片无法显示)*
 ![Training Curves](./training_curves.png)
 
 ## 🛠️ Environment Setup
