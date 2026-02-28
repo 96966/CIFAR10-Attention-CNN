@@ -31,7 +31,6 @@
 | Model Configuration | Test Accuracy | 
 | :--- | :--- |
 | **Final (All Strategies)** | **92.47%** |
-<img width="150" height="144" alt="image" src="https://github.com/user-attachments/assets/76a1414c-25c7-4524-8603-e14de94869fa" />
 
 
 
