@@ -27,7 +27,7 @@
 *   **模型集成 (Ensemble Learning)**:
     *   当单模型性能遇到瓶颈时，采用多模型概率平均策略，进一步提升鲁棒性和准确率。
 
-## 📊 Performance Results
+## Performance Results
 | Model Configuration | Test Accuracy | 
 | :--- | :--- |
 | **Final (All Strategies)** | **92.47%** |
